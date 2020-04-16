@@ -1,0 +1,23 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/RafaelSilvaPereira/TodoList/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "main-es2015.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelSilvaPereira/TodoList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelSilvaPereira/TodoList/issues"
+  },
+  "homepage": "https://github.com/RafaelSilvaPereira/TodoList#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1"
+  }
+}
