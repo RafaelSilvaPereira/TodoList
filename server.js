@@ -1,4 +1,7 @@
-const  connect = require('connect');
+const connect = require('connect');
 const serveStatic = require('serve-static');
-connect().use(serveStatic(__dirname)).listen(9777, function() {
+const PORT = 9777;
+connect().use(serveStatic(__dirname)).listen(PORT, function () {
+    console.log('server run on:');
+    console.log('http://localhost:9777/');
 });
